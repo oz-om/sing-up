@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="rightEle">
+        <div class="shap">
+          <box-icon
+            name="x"
+            color="#ffffff9d"
+            size="2em"
+            animation="spin"
+            style="top: 20%; left: 10%"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#ffffff9d"
+            size="2em"
+            animation="flashing"
+            style="top: 10%; left: 10%"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#ffffff9d"
+            size="2em"
+            style="top: 20%; left: 40%"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#ffffff9d"
+            size="2em"
+            style="top: 30%"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#ffffff4b"
+            size="2em"
+            animation="spin"
+            style="top: 60%"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#ffffff4b"
+            size="2em"
+            animation="flashing"
+            style="top: 70%; left: -40%"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#ffffff4b"
+            size="2em"
+            animation="flashing"
+            style="top: 80%; left: -80%"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#ffffff4b"
+            size="2em"
+            animation="spin"
+            style="top: 90%; left: 10%"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#ffffff4b"
+            size="2em"
+            style="top: 80%; left: 40%"
+          ></box-icon>
+          <ion-icon
+            name="triangle-outline"
+            style="top: 70%; left: 50%"
+          ></ion-icon>
+          <ion-icon name="triangle-outline" style="top: 45%"></ion-icon>
+          <ion-icon name="triangle-outline" style="top: 90%"></ion-icon>
+          <ion-icon
+            name="ellipse-outline"
+            style="top: 55%; left: -20%"
+          ></ion-icon>
+          <ion-icon
+            name="ellipse-outline"
+            style="top: 30%; left: 30%"
+          ></ion-icon>
+          <ion-icon
+            name="ellipse-outline"
+            style="top: 80%; left: 10%"
+          ></ion-icon>
+        </div>
+        <div class="intro">
+          <img src="./imges/1.svg" alt="" />
+        </div>
+      </div>
+      <span class="decoration d1"></span>
+      <span class="decoration d2"></span>
+      <span class="decoration d3"></span>
+      <span class="decoration d4"></span>
+      <span class="decoration d5"></span>
+      <span class="decoration d6"></span>
+      <div class="leftEle">
+        <div class="shap">
+          <box-icon
+            name="x"
+            color="#00000052"
+            size="2em"
+            animation="spin"
+            style="top: 1%; left: 90%; position: absolute"
+          ></box-icon>
+          <box-icon
+            name="x"
+            color="#00000052"
+            size="1.5em"
+            animation="flashing"
+            style="top: 16%; left: 95%; position: absolute"
+          ></box-icon>
+          <ion-icon
+            name="ellipse-outline"
+            style="top: 10%; left: 92%; color: #00000052; position: absolute"
+          ></ion-icon>
+          <ion-icon
+            name="triangle-outline"
+            style="
+              top: 5%;
+              left: 95%;
+              font-size: 1.3em;
+              color: #00000052;
+              position: absolute;
+            "
+          ></ion-icon>
+        </div>
+        <div class="login">
+          <div class="title">
+            <p>
+              <a href="#">Sing In</a>
+              <span>or</span>
+              <a href="#" class="active">Sing Up</a>
+            </p>
+          </div>
+          <div class="form">
+            <div class="inputs">
+              <div class="name">
+                <input type="text" id="fullname" />
+                <label for="fullname" class="fname">FULLNAME</label>
+              </div>
+              <div class="pass">
+                <input type="password" id="password" />
+                <label for="password">PASSWORD</label>
+              </div>
+              <div class="mail">
+                <input type="text" id="email" />
+                <label for="email">E-MAIL</label>
+              </div>
+            </div>
+            <div class="agree">
+              <input type="checkbox" id="agree" />
+              <label for="agree">
+                I agree all statements in
+                <a href="#">Terms of services</a>
+              </label>
+            </div>
+            <button>sing up</button>
+            <a href="#">I'm already member</a>
+          </div>
+          <div class="connectWith">
+            <div class="line"><p>Or connect with</p></div>
+            <div class="available">
+              <a href="#" class="facebook">
+                <box-icon type="logo" name="facebook" color='#fff' size='35px'></box-icon>
+                <p>SING UP WITH FACEBOOK</p>
+              </a>
+              <a href="#" class="google">
+                <box-icon name="google-plus" type="logo" color='#fff' size='35px'></box-icon>
+                <p>SING UP WITH GOOGLE</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
